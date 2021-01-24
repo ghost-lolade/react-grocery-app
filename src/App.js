@@ -67,6 +67,7 @@ function App() {
         {alert.show && <Alert {...alert} removeAlert={showAlert} list={list} />}
 
         <h3>grocery bud</h3>
+        <p>this application uses your local storage</p>
         <div className='form-control'>
           <input
             type='text'
